@@ -25,7 +25,7 @@ for year in range(2017,2018):
                     num = num + i
                 T.append([year,int(num)])
                 driver.quit()
-                print int(num)
+                print '{}: {}'.format(year,int(num))
                 print '-- trend complete--'
         except:
                 driver.quit()
